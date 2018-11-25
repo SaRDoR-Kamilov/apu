@@ -147,10 +147,12 @@ a {
 
 .col h4 {
   font-family: 'Roboto', sans-serif;
+  margin-top: 20px;
 }
 
 .col p {
-  padding: 10px;
+  padding: 15px 20px;
+  text-align: left;
 }
 
 .row img {
