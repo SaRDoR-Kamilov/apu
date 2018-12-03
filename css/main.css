@@ -122,6 +122,7 @@ a {
   border-bottom: 1.5px solid #333;
 }
 
+/*SECTION B*/
 .sec_b {
   width: 100%;
   background-color: #E5E5E5;
@@ -372,4 +373,63 @@ tr {
 table tbody tr td p {
   margin: 0;
   padding: 0;
+}
+
+/* TABLET DESKTOP */
+@media only screen and (max-width: 1180px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .sec_c h4 {
+    font-size: 16px;
+  }
+
+  .sec_c p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  header {
+    height: 80px;
+    background-color: #35DBF3;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  .nav a {
+    font-size: 14px;
+  }
+
+  .nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 15px;
+    height: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .sec_c h4 {
+    font-size: 14px;
+  }
+
+  .sec_c p {
+    font-size: 10px;
+  }
+
+  .btn {
+    width: 80px;
+    background-color: #35DBF3;
+    margin: 5px 0 10px 0;
+    border-radius: 50px !important;
+    color: #fff;
+    font-size: 10px;
+  }
 }
