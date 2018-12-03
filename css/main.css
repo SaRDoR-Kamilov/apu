@@ -32,9 +32,26 @@ body {
 }
 
 header {
-  width: 100%;
-  height: 100px;
   background-color: #35DBF3;
+}
+
+/* NAVBAR */
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: #35DBF3 !important;
+}
+
+a.nav-link {
+  color: #fff !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a:hover {
+  color: #333 !important;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light img {
+  width: 250px;
 }
 
 h2 {

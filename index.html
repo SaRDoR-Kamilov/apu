@@ -17,17 +17,35 @@
 <body>
   <header id="header">
     <div class="container">
-      <div class="logo">
-        <img src="img/logo.png" alt="">
-      </div>
-      <div class="nav">
-        <ul>
-          <li><a href="#map">CONTACT US</a></li>
-          <li><a href="#courses">OUR COURSES</a></li>
-          <li><a href="#life_apu">LIFE AT APU</a></li>
-          <li><a href="#header">MAIN</a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Life at APU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Our Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">IT Courses</a>
+            <a class="dropdown-item" href="#">Business Courses</a>
+            <a class="dropdown-item" href="#">Design Courses</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
     </div>
 
     <div id="navbar">
@@ -255,7 +273,6 @@
       </div>
       <div class="region region-footer">
         <div id="block-block-1" class="block block-block home-footer-block">
-
 
           <div class="content">
             <table border="0" cellpadding="0" cellspacing="0" class="sitewide-footer-table" style="width: 100%;">
