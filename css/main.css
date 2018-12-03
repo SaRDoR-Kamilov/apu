@@ -115,6 +115,16 @@ a {
 }
 
 /* Scrolling NavBAR */
+#navbar img {
+  width: 45px;
+  padding: 0 !important;
+}
+
+#navbar img:hover {
+  width: 55px;
+  transition: .5s ease-in-out;
+}
+
 #navbar {
   background-color: #35DBF3;
   position: fixed;
@@ -129,14 +139,13 @@ a {
   display: block;
   color: #fff;
   text-align: center;
-  padding: 15px;
+  padding: 20px 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
 #navbar a:hover {
   color: #333;
-  border-bottom: 1.5px solid #333;
 }
 
 /*SECTION B*/
@@ -403,7 +412,7 @@ table tbody tr td p {
   }
 
   .sec_c p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -434,11 +443,15 @@ table tbody tr td p {
   }
 
   .sec_c h4 {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .sec_c p {
-    font-size: 10px;
+    font-size: 14px;
+  }
+
+  .head_log img {
+    width: 45px;
   }
 
   .btn {
