@@ -31,8 +31,13 @@ body {
   background: #009AB2;
 }
 
-header {
+.top_manu {
+  width: 100%;
+  height: auto;
   background-color: #35DBF3;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1;
 }
 
 /* NAVBAR */
@@ -114,41 +119,6 @@ a {
   border-bottom: 2px solid #333;
 }
 
-/* Scrolling NavBAR */
-#navbar img {
-  width: 45px;
-  padding: 0 !important;
-}
-
-#navbar img:hover {
-  width: 55px;
-  transition: .5s ease-in-out;
-}
-
-#navbar {
-  background-color: #35DBF3;
-  position: fixed;
-  width: 100%;
-  transition: top 0.3s;
-  z-index: 3;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Style the navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #fff;
-  text-align: center;
-  padding: 20px 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#navbar a:hover {
-  color: #333;
-}
-
 /*SECTION B*/
 .sec_b {
   width: 100%;
@@ -211,6 +181,10 @@ a {
 }
 
 /*SECTION C */
+img.d-block.w-100 {
+  margin-top: 80px !important;
+}
+
 .carousel-control-prev span i {
   color: #35DBF3;
   position: relative;

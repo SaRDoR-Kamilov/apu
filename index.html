@@ -16,6 +16,7 @@
 
 <body>
   <header id="header">
+    <div class="top_manu">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
@@ -47,22 +48,13 @@
     </div>
   </nav>
     </div>
-
-    <div id="navbar">
-      <div class="container">
-        <a href="#"><img src="img/logo2.png" alt="apu logo"></a>
-        <a href="#header">HOME</a>
-        <a href="#life_apu">LIFE AT APU</a>
-        <a href="#courses">OUR COURSES</a>
-        <a href="#map">CONTACT US</a>
-      </div>
-
     </div>
   </header>
 
   <!-- SECTION A -->
 
   <section>
+    <div class="clear"></div>
     <div class="container">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
@@ -324,15 +316,15 @@
   <!-- Navbar Scrolling -->
 
   <script type="text/javascript">
-    window.onscroll = function() {
-      scrollFunction()
+    window.onscroll = function () {
+      scrollFunction();
     };
 
     function scrollFunction() {
       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("navbar").style.top = "0";
+        document.getElementById('navbar').style.top = '0';
       } else {
-        document.getElementById("navbar").style.top = "-80px";
+        document.getElementById('navbar').style.top = '-40px';
       }
     }
   </script>
